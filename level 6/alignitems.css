@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#heading{
+  margin-left: 50px;
+  
+}
+
+#container {
+  height: 600px;
+  width: 600px;
+  padding: 10px;
+  margin: 20px;
+  border: 3px solid black;
+  background-color: lavender;
+
+  display: flex;  
+ justify-content: center; 
+ align-items: center;
+
+ /* align itmes -- cross axix movement
+ center - move items to center
+ start - move items to center start 
+ end -move items to end*/
+ 
+}
+
+.box {
+  height: 75px;
+  width: 75px;
+  border: 3px solid;
+  margin: 5px;
+  
+}
+
+#box1 {
+  background-color: aqua;
+  
+}
+#box2 {
+  background-color: blue;
+  
+}
+#box3 {
+  background-color: blueviolet;
+}
+#box4 {
+  background-color: rgb(40, 100, 74);
+}
